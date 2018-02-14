@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-slack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Renders *bold* to <strong>bold</strong>",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/invisible-tech/markdown-it-underline.git"
+    "url": "git+https://github.com/invisible-tech/markdown-it-slack.git"
   },
   "keywords": [
     "markdown",
