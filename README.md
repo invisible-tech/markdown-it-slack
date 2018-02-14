@@ -11,7 +11,8 @@ to this HTML
 <strong>bold</strong>
 ```
 ## Installation
-```yarn add markdown-it-slack
+```md
+yarn add markdown-it-slack
 ```
 
 ## Usage
