@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arve0/markdown-it-underline.git"
+    "url": "git+https://github.com/invisible-tech/markdown-it-underline.git"
   },
   "keywords": [
     "markdown",
@@ -20,7 +20,7 @@
   ],
   "author": "Gabriel Altemann",
   "license": "MIT",
-  "homepage": "https://github.com/arve0/markdown-it-slack#readme",
+  "homepage": "https://github.com/invisible-tech/markdown-it-slack#readme",
   "devDependencies": {
     "markdown-it": "^8.1.0",
     "power-assert": "^1.4.2"
