@@ -1,9 +1,9 @@
 const assert = require('assert')
 const md = require('markdown-it')()
 
-const index = require('../../src/index.js')
+const strongPlugin = require('../../src/strongPlugin.js')
 
-md.use(index)
+md.use(strongPlugin)
 
 describe('markdown-it asterisk-override plugin', () => {
 
