@@ -3,9 +3,9 @@
 const assert = require('assert')
 const md = require('markdown-it')()
 
-const index = require('../../src')
+const markdownItSlack = require('../..')
 
-md.use(index)
+md.use(markdownItSlack)
 
 it('markdown-it combine strong plugin with emoji plugin', () => {
   const input = '_hello_ *big* hello :+1:'
