@@ -1,3 +1,5 @@
+'use strict'
+
 const emoji = require('markdown-it-emoji')
 const strongPlugin = require('./strongPlugin.js')
 
