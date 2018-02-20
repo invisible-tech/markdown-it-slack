@@ -1,12 +1,13 @@
 {
   "name": "markdown-it-slack",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Renders *bold* to <strong>bold</strong>",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "preversion": "npm test",
-    "postpublish": "git push && git push --tags",
-    "test": "node test.js"
+    "lint": "eslint *.js **/*.js",
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=test mocha $(find test -name '*.spec.js')",
+    "posttest": "assert-version-bump && assert-changelog-update"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,15 @@
   "license": "MIT",
   "homepage": "https://github.com/invisible-tech/markdown-it-slack#readme",
   "devDependencies": {
+    "@invisible/changelog-update": "^1.1.0",
+    "@invisible/eslint-config": "^1.3.2",
+    "@invisible/publish": "^2.0.0",
+    "eslint": "^4.18.0",
     "markdown-it": "^8.1.0",
+    "mocha": "^5.0.1",
     "power-assert": "^1.4.2"
+  },
+  "dependencies": {
+    "markdown-it-emoji": "^1.4.0"
   }
 }
