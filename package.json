@@ -4,7 +4,7 @@
   "description": "Renders *bold* to <strong>bold</strong> and other idiosyncrasies",
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint *.js **/*.js",
+    "lint": "eslint --ignore-path .gitignore .",
     "pretest": "npm run lint",
     "test": "NODE_ENV=test mocha $(find test -name '*.spec.js')",
     "posttest": "assert-version-bump && assert-changelog-update"
