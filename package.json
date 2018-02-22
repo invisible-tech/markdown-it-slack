@@ -17,7 +17,9 @@
     "markdown",
     "markdown-it",
     "markdown-it-plugin",
-    "commonmark"
+    "commonmark",
+    "markdown-bold", 
+    "markdown-emoji"
   ],
   "author": "Gabriel Altemann",
   "license": "MIT",
