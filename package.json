@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-slack",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Renders *bold* to <strong>bold</strong>",
   "main": "src/index.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "markdown",
     "markdown-it",
     "markdown-it-plugin",
-    "commonmark"
+    "commonmark",
+    "markdown-bold", 
+    "markdown-emoji"
   ],
   "author": "Gabriel Altemann",
   "license": "MIT",
