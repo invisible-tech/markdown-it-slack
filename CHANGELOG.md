@@ -1,5 +1,8 @@
 # Changelog
 
+*v1.2.1*
+_Internal: Update CircleCI to version 2_
+
 *v1.2.0*
 _Feat: add support to Slack's markdown flavor of code block's_
 

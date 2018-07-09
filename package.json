@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-slack",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Renders *bold* to <strong>bold</strong> and other idiosyncrasies",
   "main": "src/index.js",
   "scripts": {
